@@ -1,0 +1,7 @@
+6 matches for "\(\w\w[A]\)" in buffer: input.txt
+    547:AAA = (LBH, SJH)
+    598:VLA = (QMF, VTN)
+    663:PJA = (XMC, GVV)
+    744:VSA = (FMR, TKJ)
+    777:QKA = (JRL, QKG)
+    782:CPA = (NNC, NGB)

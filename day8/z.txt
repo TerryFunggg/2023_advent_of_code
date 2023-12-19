@@ -1,0 +1,13 @@
+12 matches for "\(\w\w[Z]\)" in buffer: input.txt
+     67:ZZZ = (SJH, LBH)
+    130:NVR = (DGS, JTZ)
+    231:CLZ = (TKJ, FMR)
+    270:KFV = (XNG, FTZ)
+    280:TDH = (LMN, ZZZ)
+    295:GKZ = (VTN, QMF)
+    375:MBD = (HFD, VCZ)
+    381:VCZ = (QKG, JRL)
+    432:FTZ = (GVV, XMC)
+    509:QPG = (VVF, CLZ)
+    656:JTZ = (NGB, NNC)
+    673:MFH = (SQV, GKZ)
