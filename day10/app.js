@@ -117,7 +117,7 @@ function transLocation(x, y,direct){
     if(direct == 3) return [x - 1, y];
 }
 
-function isOverLine(x,y) {
+function isNotOverLine(x,y) {
     return x < DATASET_WIDTH && y <  DATASET_HIGHT && x >= 0 && y >= 0;
 }
 
@@ -127,7 +127,7 @@ function scan(node) {
     let arrDirection  = direction[node.label] || [];
     arrDirection.map((connect, d) => {
         let targetPos = transLocation(node.x, node.y, d);
-        if(isOverLine(targetPos[0], targetPos[1])) {
+        if(isNotOverLine(targetPos[0], targetPos[1])) {
 
             let targetNode = dataSet[targetPos[1]][targetPos[0]]
             if(connect === 1) {
