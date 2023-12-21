@@ -23,7 +23,7 @@ const direction = {
 
 
 function canConnect(pipe1, pipe2, postition) {
-    if(postition < 0 || postition > 4) return -1
+    if(postition < 0 || postition > 4) return false
 
     const pipe1Direction = direction[pipe1]
     const pipe2Direction = direction[pipe2]
@@ -35,7 +35,7 @@ function canConnect(pipe1, pipe2, postition) {
         relatedPosition = 4 - Math.abs(relatedPosition)
     }
 
-    return pipe2Direction[relatedPosition] === pipe1Direction[postition] ? true : false
+    return pipe2Direction[relatedPosition] === pipe1Direction[postition]
 }
 
 
